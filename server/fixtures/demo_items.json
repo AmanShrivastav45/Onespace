@@ -1,0 +1,42 @@
+{
+  "deadline": [
+    ["Follow up with the reviewer on static analysis fixes", "Confirm which static analysis issues have been resolved, review any remaining blockers, and agree on the next steps before the release.", 4, "the reviewer", "high"],
+    ["Review the release readiness checklist", "Check QA sign-off, outstanding defects, deployment notes, and rollback readiness with the release team.", 2, "Release team", "high"],
+    ["Send the weekly project update", "Summarize progress, decisions, risks, and next week's priorities for the project stakeholders.", 0, "Project stakeholders", "medium"],
+    ["Confirm API integration requirements", "Review the API contract with the backend team and confirm the request fields, response shapes, and error cases.", 6, "Backend team", "medium"],
+    ["Follow up on the pending design review", "Collect feedback on the updated dashboard and document any changes required before implementation.", -2, "Design team", "high"],
+    ["Share the sprint handover notes", "Document completed work, remaining tickets, and links needed by the next sprint's owners.", 9, "Engineering team", "low"],
+    ["Finalize the deployment window", "Agree on a deployment time and ensure the right people are available for monitoring and verification.", 12, "DevOps team", "medium"],
+    ["Close out the documentation review", "Confirm that the setup guide and release notes reflect the current implementation.", -4, "Documentation team", "low", "done"]
+  ],
+  "task": [
+    ["Build the Onespace dashboard", "Bring together task counts, upcoming deadlines, and a focused list of next actions.", 0, "", "high", "open", ["Review the overview layout", "Connect the summary cards", "Check empty and populated states"]],
+    ["Prepare the static analysis follow-up", "Review the open findings and prepare a concise list of questions for the reviewer.", 1, "the reviewer", "high", "open", ["List unresolved findings", "Capture links to affected files", "Draft follow-up questions"]],
+    ["Test the deadline creation flow", "Create, edit, and complete a deadline, then verify that the calendar reflects the latest date.", 2, "", "medium", "open", ["Create a sample deadline", "Change its due date", "Verify calendar placement", "Mark the deadline complete"]],
+    ["Write the local setup guide", "Document frontend and backend setup so the project is easy to run after a break.", 3, "", "medium", "open", ["List prerequisites", "Add startup commands", "Document environment variables"]],
+    ["Review the mobile layout", "Inspect navigation, task lists, and the item editor at smaller screen sizes.", 5, "", "low", "open", ["Review sidebar spacing", "Check calendar readability", "Inspect the editor form"]],
+    ["Organize project notes", "Collect scattered implementation notes and group them by feature and next action.", null, "", "low", "open", ["Collect loose notes", "Group notes by feature"]],
+    ["Set up the JSON storage layer", "Add local JSON persistence and verify that records survive a server restart.", -3, "", "medium", "done", ["Implement atomic writes", "Verify persistence", "Add isolated tests"]],
+    ["Choose the application typography", "Compare font options and apply the selected typeface consistently across the app.", -1, "", "low", "done", ["Compare font samples", "Apply Inter", "Verify the production build"]]
+  ],
+  "backlog": [
+    ["Add recurring tasks", "Explore weekly and monthly task schedules with a simple way to pause a recurring item.", null, "", "medium"],
+    ["Introduce project labels", "Group related tasks and deadlines under lightweight labels such as Onespace, release work, and learning.", null, "", "medium"],
+    ["Add a weekly review view", "Show completed work, missed commitments, and next week's priorities in one place.", 21, "", "low"],
+    ["Support calendar export", "Explore exporting deadlines and events as an ICS file for a personal calendar.", null, "", "low"],
+    ["Add dark mode", "Design an accessible dark palette that keeps the interface calm and readable.", null, "", "low"],
+    ["Create a command menu", "Explore keyboard navigation for finding pages, creating items, and searching work.", null, "", "medium"],
+    ["Add JSON backup and restore", "Provide a clear way to download a backup and preview a restore before replacing any records.", 28, "", "high"],
+    ["Explore a local LLM connection", "Evaluate a configurable local model endpoint for polishing rough notes without a hosted API.", null, "", "medium"]
+  ],
+  "event": [
+    ["Sprint planning", "Review the backlog, agree on priorities, and select a realistic scope for the coming sprint.", 1, "Engineering team", "medium"],
+    ["static analysis review with the reviewer", "Walk through the resolved findings and confirm any remaining work before the release.", 4, "the reviewer", "high"],
+    ["Release day", "Deploy the planned release, run smoke checks, and monitor the application after rollout.", 6, "Release team", "high"],
+    ["Weekly personal review", "Review completed work, clear loose notes, and choose the most important next actions.", 0, "", "low"],
+    ["Dashboard design walkthrough", "Review the overview page, navigation, typography, and spacing using populated sample data.", 3, "Design team", "medium"],
+    ["API integration working session", "Work through the client-server integration and verify the main create and edit flows.", 8, "Backend team", "medium"],
+    ["Documentation catch-up", "Update setup instructions and capture decisions made during the week's development.", 10, "", "low"],
+    ["Monthly planning session", "Review longer-term goals and decide which backlog ideas should move into active work.", 14, "", "medium"]
+  ]
+}

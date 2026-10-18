@@ -1,0 +1,38 @@
+{
+  "calendars": [
+    {
+      "id": "events",
+      "name": "Events",
+      "isVisible": true,
+      "colors": {
+        "lineColor": "#699a81",
+        "eventColor": "#eaf4ee",
+        "eventSelectedColor": "#d2e7da",
+        "textColor": "#436952"
+      }
+    },
+    {
+      "id": "deadlines",
+      "name": "Deadlines",
+      "isVisible": false,
+      "colors": {
+        "lineColor": "#9574ba",
+        "eventColor": "#f1eaf8",
+        "eventSelectedColor": "#e3d4f1",
+        "textColor": "#755492"
+      }
+    },
+    {
+      "id": "tasks",
+      "name": "Tasks",
+      "isVisible": true,
+      "colors": {
+        "lineColor": "#7893bf",
+        "eventColor": "#edf2fb",
+        "eventSelectedColor": "#d9e4f6",
+        "textColor": "#526e99"
+      }
+    }
+  ],
+  "groups": []
+}

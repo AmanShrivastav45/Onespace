@@ -1,0 +1,126 @@
+/* Style the library's native elements; keep its positioning and interaction geometry. */
+.dayflow-host {
+  --df-calendar-height: 100%;
+  @apply font-sans;
+}
+
+.dayflow-host .df-calendar-wrapper {
+  height: 100%;
+  min-height: 0;
+}
+
+.dayflow-host .df-calendar-container {
+  height: var(--df-calendar-height);
+  @apply border-0 font-sans;
+}
+
+/* Native dialogs and menus are portaled outside the calendar wrapper. */
+:where(
+  .df-dialog-container,
+  .df-event-detail-panel,
+  .df-portal,
+  .df-range-picker
+) {
+  @apply font-sans;
+}
+
+.dayflow-host .df-header {
+  @apply border-b border-[#eeebf3] px-4 py-3;
+}
+
+.dayflow-host .df-view-header-container {
+  @apply px-4 py-3;
+}
+
+.dayflow-host .df-view-header-title {
+  @apply text-[length:calc(1rem*var(--main-font-scale))] font-medium tracking-normal text-[#62596c];
+}
+
+.dayflow-host .df-view-header-subtitle {
+  @apply text-[length:calc(0.7143rem*var(--main-font-scale))] text-[#9b93a5];
+}
+
+.dayflow-host
+  :is(
+    .df-calendar-nav-button,
+    .df-calendar-today-button,
+    .df-view-switcher-select-trigger
+  ) {
+  @apply rounded-md border-[#e5e1eb] bg-white text-[length:calc(0.7143rem*var(--main-font-scale))] font-normal text-[#77717f] shadow-none;
+}
+
+.dayflow-host
+  :is(
+    .df-calendar-nav-button,
+    .df-calendar-today-button,
+    .df-view-switcher-select-trigger
+  ):hover {
+  @apply border-[#e5e1eb] bg-[#f8f5fc] shadow-none;
+}
+
+.dayflow-host .df-calendar-nav-button:hover svg {
+  @apply transform-none;
+}
+
+.dayflow-host .df-view-switcher {
+  @apply rounded-md border border-[#e5e1eb] bg-[#faf9fc];
+}
+
+.dayflow-host .df-view-switcher-btn {
+  @apply rounded text-[length:calc(0.7143rem*var(--main-font-scale))] font-normal text-[#8f8799];
+}
+
+.dayflow-host .df-view-switcher-btn[data-active="true"] {
+  @apply bg-white font-medium text-[#785bb0] shadow-sm;
+}
+
+.dayflow-host .df-sidebar {
+  @apply border-[#eeebf3] bg-[#fcfbfe];
+}
+
+.dayflow-host .df-sidebar-header {
+  @apply px-3 py-2;
+}
+
+.dayflow-host .df-sidebar-header-title {
+  @apply text-[length:calc(0.7857rem*var(--main-font-scale))] font-medium text-[#756b80];
+}
+
+.dayflow-host .df-sidebar-list-shell {
+  @apply px-3;
+}
+
+.dayflow-host .df-week-day-cell {
+  @apply text-[length:calc(0.7143rem*var(--main-font-scale))] font-normal text-[#9b93a5];
+}
+
+.dayflow-host :is(.df-date-number, .df-month-date-number) {
+  @apply text-[length:calc(0.7143rem*var(--main-font-scale))] font-medium;
+}
+
+.dayflow-host :is(.df-date-number, .df-month-date-number)[data-today="true"] {
+  @apply bg-[#8066c6] text-white;
+}
+
+.dayflow-host .df-time-label {
+  @apply text-[length:calc(0.6429rem*var(--main-font-scale))] font-normal text-[#aaa0b4];
+}
+
+.dayflow-host .df-event-title {
+  @apply text-[length:calc(0.7143rem*var(--main-font-scale))] font-medium;
+}
+
+.df-dialog-container {
+  @apply rounded-xl border-[#e5dfed] shadow-[0_12px_48px_#39254c1f];
+}
+
+.df-event-detail-panel {
+  @apply rounded-xl border-[#e5dfed] shadow-[0_8px_30px_#39254c1a];
+}
+
+@media (max-width: 760px) {
+  .dayflow-host .df-header,
+  .dayflow-host .df-view-header-container {
+    @apply px-3 py-2;
+  }
+}

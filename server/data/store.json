@@ -1,0 +1,783 @@
+[
+  {
+    "kind": "deadline",
+    "title": "Follow up with xyz on SonarQube fixes",
+    "description": "Confirm which SonarQube issues have been resolved, review any remaining blockers, and agree on the next steps before the release.",
+    "date": "2026-10-21",
+    "person": "sfaf",
+    "priority": "high",
+    "status": "open",
+    "reminder_days": 3,
+    "subtasks": [],
+    "id": "demo-27d3a77d-0f42-5b9e-bb91-57d03caa2162",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "demo": true,
+    "reminder_sent": "disabled-for-demo",
+    "dayflow": null
+  },
+  {
+    "kind": "deadline",
+    "title": "Review the release readiness checklist",
+    "description": "Demo item. Check QA sign-off, outstanding defects, deployment notes, and rollback readiness with the release team.",
+    "date": "2026-10-19",
+    "person": "Release team",
+    "priority": "high",
+    "status": "open",
+    "reminder_days": 1,
+    "subtasks": [],
+    "id": "demo-236409fc-5501-5e70-ba7b-330e64d22cdb",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "demo": true,
+    "reminder_sent": "disabled-for-demo"
+  },
+  {
+    "kind": "deadline",
+    "title": "Send the weekly project update",
+    "description": "Demo item. Summarize progress, decisions, risks, and next week's priorities for the project stakeholders.",
+    "date": "2026-10-17",
+    "person": "Project stakeholders",
+    "priority": "medium",
+    "status": "open",
+    "reminder_days": 0,
+    "subtasks": [],
+    "id": "demo-e85e0752-020d-5fa5-bc25-b42fe34b72c7",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "demo": true,
+    "reminder_sent": "disabled-for-demo",
+    "dayflow": {
+      "id": "demo-e85e0752-020d-5fa5-bc25-b42fe34b72c7",
+      "title": "Send the weekly project update",
+      "description": "Demo item. Summarize progress, decisions, risks, and next week's priorities for the project stakeholders.",
+      "start": "2026-10-17T05:00:00+05:30[Asia/Calcutta]",
+      "end": "2026-10-17T05:05:00+05:30[Asia/Calcutta]",
+      "allDay": false,
+      "calendarId": "deadlines",
+      "calendarIds": null,
+      "meta": {}
+    }
+  },
+  {
+    "kind": "deadline",
+    "title": "Confirm API integration requirements",
+    "description": "Demo item. Review the API contract with the backend team and confirm the request fields, response shapes, and error cases.",
+    "date": "2026-10-23",
+    "person": "Backend team",
+    "priority": "medium",
+    "status": "open",
+    "reminder_days": 2,
+    "subtasks": [],
+    "id": "demo-5f38e946-af95-5655-87f0-95af60c7c295",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "demo": true,
+    "reminder_sent": "disabled-for-demo"
+  },
+  {
+    "kind": "deadline",
+    "title": "Follow up on the pending design review",
+    "description": "Demo item. Collect feedback on the updated dashboard and document any changes required before implementation.",
+    "date": "2026-10-15",
+    "person": "Design team",
+    "priority": "high",
+    "status": "open",
+    "reminder_days": 3,
+    "subtasks": [],
+    "id": "demo-32b5244d-a79f-50b8-8c8e-b4452cefc90b",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "demo": true,
+    "reminder_sent": "disabled-for-demo"
+  },
+  {
+    "kind": "deadline",
+    "title": "Share the sprint handover notes",
+    "description": "Demo item. Document completed work, remaining tickets, and links needed by the next sprint's owners.",
+    "date": "2026-10-26",
+    "person": "Engineering team",
+    "priority": "low",
+    "status": "open",
+    "reminder_days": 1,
+    "subtasks": [],
+    "id": "demo-8318b6cd-7638-5498-9157-121e2fe05eb7",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "demo": true,
+    "reminder_sent": "disabled-for-demo"
+  },
+  {
+    "kind": "deadline",
+    "title": "Finalize the deployment window",
+    "description": "Demo item. Agree on a deployment time and ensure the right people are available for monitoring and verification.",
+    "date": "2026-10-29",
+    "person": "DevOps team",
+    "priority": "medium",
+    "status": "open",
+    "reminder_days": 0,
+    "subtasks": [],
+    "id": "demo-b5e41f7f-e634-5b28-96ad-02c27bbb166c",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "demo": true,
+    "reminder_sent": "disabled-for-demo"
+  },
+  {
+    "kind": "deadline",
+    "title": "Close out the documentation review",
+    "description": "Demo item. Confirm that the setup guide and release notes reflect the current implementation.",
+    "date": "2026-10-13",
+    "person": "Documentation team",
+    "priority": "low",
+    "status": "done",
+    "reminder_days": 2,
+    "subtasks": [],
+    "id": "demo-800962c1-5b0d-53c2-ba15-bc53c45008c2",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "demo": true,
+    "reminder_sent": "disabled-for-demo"
+  },
+  {
+    "id": "demo-2b7c84fb-e8cc-5e0d-82f1-4fad0bb15958",
+    "kind": "task",
+    "title": "Build the Onespace dashboard",
+    "status": "done",
+    "priority": "medium",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "subtasks": [
+      {
+        "id": "ef548a8d-7c24-56e4-9711-06c6a6acbd08",
+        "title": "Review the overview layout",
+        "done": true,
+        "created_at": "2026-10-17T12:33:04.315707+05:30"
+      },
+      {
+        "id": "f3930257-274c-57d4-9189-cf5ea5f04cc8",
+        "title": "Connect the summary cards",
+        "done": true,
+        "created_at": "2026-10-17T12:33:04.315707+05:30"
+      },
+      {
+        "id": "46de2aef-c0b2-57b6-b877-aef8471a857b",
+        "title": "Check empty and populated states",
+        "done": true,
+        "created_at": "2026-10-17T12:33:04.315707+05:30"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "demo-3e40403d-7b4d-5b2c-bdf2-ce5224eabc2e",
+    "kind": "task",
+    "title": "Prepare the SonarQube follow-up",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "subtasks": [],
+    "demo": true
+  },
+  {
+    "id": "demo-91347895-19e6-59bd-b263-0d9137c798bd",
+    "kind": "task",
+    "title": "Test the deadline creation flow",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "subtasks": [
+      {
+        "id": "e7c68153-b118-549a-b7d1-6c9d6d924c1a",
+        "title": "Create a sample deadline",
+        "done": false,
+        "created_at": "2026-10-17T12:33:04.315707+05:30"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "demo-ebd80153-945e-59d1-be75-1c84393747ed",
+    "kind": "task",
+    "title": "Write the local setup guide",
+    "status": "done",
+    "priority": "medium",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "subtasks": [
+      {
+        "id": "ab61f910-60a7-5d98-9803-fbff1ab33ad7",
+        "title": "List prerequisites",
+        "done": true,
+        "created_at": "2026-10-17T12:33:04.315707+05:30"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "demo-2fb2a12d-e089-50e7-aabd-364f7de1d76e",
+    "kind": "task",
+    "title": "Organize project notes",
+    "status": "done",
+    "priority": "medium",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "subtasks": [],
+    "demo": true
+  },
+  {
+    "id": "demo-aa28ae96-1c30-57cc-8973-94522c5786ca",
+    "kind": "task",
+    "title": "Set up the JSON storage layer",
+    "status": "done",
+    "priority": "medium",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "subtasks": [
+      {
+        "id": "a533b093-95c1-56dc-b832-2099bb2903b5",
+        "title": "Implement atomic writes",
+        "done": true,
+        "created_at": "2026-10-17T12:33:04.315707+05:30"
+      },
+      {
+        "id": "0611d9a9-c282-59c8-ae31-8d4068f0e051",
+        "title": "Verify persistence",
+        "done": true,
+        "created_at": "2026-10-17T12:33:04.315707+05:30"
+      },
+      {
+        "id": "3cf87920-942d-5de2-9adc-e19c3161377a",
+        "title": "Add isolated tests",
+        "done": true,
+        "created_at": "2026-10-17T12:33:04.315707+05:30"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "demo-5bc1c091-b3c5-5ba5-99b8-ec07cdd8e200",
+    "kind": "task",
+    "title": "Choose the application typography",
+    "status": "done",
+    "priority": "medium",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "subtasks": [
+      {
+        "id": "9768ac98-7cb2-5abe-ad66-0810cbbb502e",
+        "title": "Compare font samples",
+        "done": true,
+        "created_at": "2026-10-17T12:33:04.315707+05:30"
+      },
+      {
+        "id": "e2c1c932-ffbd-5774-95bb-c0635749f559",
+        "title": "Apply Inter",
+        "done": true,
+        "created_at": "2026-10-17T12:33:04.315707+05:30"
+      },
+      {
+        "id": "e897d0ff-fd05-5d27-b180-f62837fc22d2",
+        "title": "Verify the production build",
+        "done": true,
+        "created_at": "2026-10-17T12:33:04.315707+05:30"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "demo-e3f13748-3e20-5f21-83a4-0f93c60bea71",
+    "kind": "backlog",
+    "title": "Add recurring tasks",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "subtasks": [],
+    "demo": true,
+    "description": "Demo item. Explore weekly and monthly task schedules with a simple way to pause a recurring item."
+  },
+  {
+    "id": "demo-d20b4137-23ce-50b5-b720-6156b52d5a10",
+    "kind": "backlog",
+    "title": "Introduce project labels",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "subtasks": [],
+    "demo": true,
+    "description": "Demo item. Group related tasks and deadlines under lightweight labels such as Onespace, release work, and learning."
+  },
+  {
+    "id": "demo-5f446211-5ca2-5e26-8cc8-a0f5e84059bc",
+    "kind": "backlog",
+    "title": "Add a weekly review view",
+    "status": "open",
+    "priority": "low",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "subtasks": [],
+    "demo": true,
+    "description": "Demo item. Show completed work, missed commitments, and next week's priorities in one place."
+  },
+  {
+    "id": "demo-e44fa5e7-dfa6-5786-8ae5-31ec23283402",
+    "kind": "backlog",
+    "title": "Support calendar export",
+    "status": "open",
+    "priority": "low",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "subtasks": [],
+    "demo": true,
+    "description": "Demo item. Explore exporting deadlines and events as an ICS file for a personal calendar."
+  },
+  {
+    "id": "demo-0fd2a6d8-8d00-5de8-8e52-22602ce8eb80",
+    "kind": "backlog",
+    "title": "Add dark mode",
+    "status": "open",
+    "priority": "low",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "subtasks": [],
+    "demo": true,
+    "description": "Demo item. Design an accessible dark palette that keeps the interface calm and readable."
+  },
+  {
+    "id": "demo-338d55c6-ec7a-5ae5-8ef2-2419b97bc761",
+    "kind": "backlog",
+    "title": "Create a command menu",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "subtasks": [],
+    "demo": true,
+    "description": "Demo item. Explore keyboard navigation for finding pages, creating items, and searching work."
+  },
+  {
+    "id": "demo-259bd628-0588-58e0-a5ab-9f5e37d8f850",
+    "kind": "backlog",
+    "title": "Add JSON backup and restore",
+    "status": "open",
+    "priority": "high",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "subtasks": [],
+    "demo": true,
+    "description": "Demo item. Provide a clear way to download a backup and preview a restore before replacing any records."
+  },
+  {
+    "id": "demo-b8ac0d34-dbe0-5fea-b9b2-fcaeb7733f9b",
+    "kind": "backlog",
+    "title": "Explore a local LLM connection",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "subtasks": [],
+    "demo": true,
+    "description": "Demo item. Evaluate a configurable local model endpoint for polishing rough notes without a hosted API."
+  },
+  {
+    "kind": "event",
+    "title": "Sprint planning",
+    "description": "Demo item. Review the backlog, agree on priorities, and select a realistic scope for the coming sprint.",
+    "date": "2026-10-18",
+    "person": "Engineering team",
+    "priority": "medium",
+    "status": "open",
+    "reminder_days": 3,
+    "subtasks": [],
+    "id": "demo-e2e2433a-1509-5773-952d-e3c88e4ba0d6",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "demo": true,
+    "reminder_sent": "disabled-for-demo"
+  },
+  {
+    "kind": "event",
+    "title": "SonarQube review with afaf",
+    "description": "Demo item. Walk through the resolved findings and confirm any remaining work before the release.",
+    "date": "2026-10-21",
+    "person": "dgds",
+    "priority": "high",
+    "status": "open",
+    "reminder_days": 1,
+    "subtasks": [],
+    "id": "demo-dd249248-1fa2-5023-86e2-aa2de758436a",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "demo": true,
+    "reminder_sent": "disabled-for-demo"
+  },
+  {
+    "kind": "event",
+    "title": "Release day",
+    "description": "Demo item. Deploy the planned release, run smoke checks, and monitor the application after rollout.",
+    "date": "2026-10-23",
+    "person": "Release team",
+    "priority": "high",
+    "status": "open",
+    "reminder_days": 0,
+    "subtasks": [],
+    "id": "demo-9570af09-fbda-50bb-b517-56b9706ba413",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "demo": true,
+    "reminder_sent": "disabled-for-demo"
+  },
+  {
+    "kind": "event",
+    "title": "Weekly personal review",
+    "description": "Demo item. Review completed work, clear loose notes, and choose the most important next actions.",
+    "date": "2026-10-17",
+    "person": "",
+    "priority": "low",
+    "status": "open",
+    "reminder_days": 2,
+    "subtasks": [],
+    "id": "demo-ce90747a-24ab-56ad-9ccf-58a0b3834b4b",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "demo": true,
+    "reminder_sent": "disabled-for-demo",
+    "dayflow": {
+      "id": "demo-ce90747a-24ab-56ad-9ccf-58a0b3834b4b",
+      "title": "Weekly personal review",
+      "description": "Demo item. Review completed work, clear loose notes, and choose the most important next actions.",
+      "start": "2026-10-17T02:00:00+05:30[Asia/Calcutta]",
+      "end": "2026-10-17T03:00:00+05:30[Asia/Calcutta]",
+      "allDay": false,
+      "calendarId": "events",
+      "calendarIds": null,
+      "meta": {}
+    }
+  },
+  {
+    "kind": "event",
+    "title": "Dashboard design walkthrough",
+    "description": "Demo item. Review the overview page, navigation, typography, and spacing using populated sample data.",
+    "date": "2026-10-20",
+    "person": "Design team",
+    "priority": "medium",
+    "status": "open",
+    "reminder_days": 3,
+    "subtasks": [],
+    "id": "demo-dbbba113-98d4-5c0f-a987-2e4e83faac0b",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "demo": true,
+    "reminder_sent": "disabled-for-demo"
+  },
+  {
+    "kind": "event",
+    "title": "API integration working session",
+    "description": "Demo item. Work through the client-server integration and verify the main create and edit flows.",
+    "date": "2026-10-25",
+    "person": "Backend team",
+    "priority": "medium",
+    "status": "open",
+    "reminder_days": 1,
+    "subtasks": [],
+    "id": "demo-6e269f20-9913-5550-96d3-5731436a276e",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "demo": true,
+    "reminder_sent": "disabled-for-demo"
+  },
+  {
+    "kind": "event",
+    "title": "Documentation catch-up",
+    "description": "Demo item. Update setup instructions and capture decisions made during the week's development.",
+    "date": "2026-10-27",
+    "person": "",
+    "priority": "low",
+    "status": "open",
+    "reminder_days": 0,
+    "subtasks": [],
+    "id": "demo-4926a66e-9f88-5b22-888c-1ea30dc6b4b2",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "demo": true,
+    "reminder_sent": "disabled-for-demo"
+  },
+  {
+    "kind": "event",
+    "title": "Monthly planning session",
+    "description": "Demo item. Review longer-term goals and decide which backlog ideas should move into active work.",
+    "date": "2026-10-31",
+    "person": "",
+    "priority": "medium",
+    "status": "open",
+    "reminder_days": 2,
+    "subtasks": [],
+    "id": "demo-bdf1db6d-3e99-5f58-999a-347b43d7e4e9",
+    "created_at": "2026-10-17T12:33:04.315707+05:30",
+    "demo": true,
+    "reminder_sent": "disabled-for-demo"
+  },
+  {
+    "kind": "event",
+    "title": "New Event",
+    "description": "",
+    "date": "2026-10-12",
+    "person": "",
+    "priority": "medium",
+    "status": "open",
+    "reminder_days": 3,
+    "subtasks": [],
+    "dayflow": {
+      "id": "1792223650353",
+      "title": "New Event",
+      "description": "",
+      "start": "2026-10-12T01:15:00+05:30[Asia/Calcutta]",
+      "end": "2026-10-12T01:30:00+05:30[Asia/Calcutta]",
+      "allDay": false,
+      "calendarId": "events",
+      "calendarIds": null,
+      "meta": {}
+    },
+    "id": "1792223650353",
+    "created_at": "2026-10-17T13:24:10.380018+05:30",
+    "reminder_sent": null
+  },
+  {
+    "id": "demo-1a216bb7-5625-5cca-a708-89e53cb68f54",
+    "kind": "task",
+    "title": "Review release components",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2026-10-18T09:15:00+05:30",
+    "subtasks": [
+      {
+        "id": "21077ddb-6f03-5957-b611-486184669d60",
+        "title": "Gather the relevant links",
+        "done": true,
+        "created_at": "2026-10-18T09:15:00+05:30"
+      },
+      {
+        "id": "196456ea-5bf6-5305-b106-8af8f993a7fd",
+        "title": "Review and record next steps",
+        "done": false,
+        "created_at": "2026-10-18T09:15:00+05:30"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "demo-2c93f4ea-390b-59e5-ac59-9e0ec7a27858",
+    "kind": "task",
+    "title": "Check the latest SonarQube results",
+    "status": "open",
+    "priority": "low",
+    "created_at": "2026-10-18T10:15:00+05:30",
+    "subtasks": [],
+    "demo": true
+  },
+  {
+    "id": "demo-8dde3e55-975a-52a3-864f-f7a956c265cc",
+    "kind": "task",
+    "title": "Organize meeting notes",
+    "status": "done",
+    "priority": "high",
+    "created_at": "2026-10-18T11:15:00+05:30",
+    "subtasks": [
+      {
+        "id": "daad63e2-b4f9-5f8a-a0b8-d8d892938ead",
+        "title": "Gather the relevant links",
+        "done": true,
+        "created_at": "2026-10-18T11:15:00+05:30"
+      },
+      {
+        "id": "6e8bf4da-75c6-5cd2-9cea-8a4524ee1bf1",
+        "title": "Review and record next steps",
+        "done": true,
+        "created_at": "2026-10-18T11:15:00+05:30"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "demo-d963feee-be39-55cc-be69-24d4aa973081",
+    "kind": "task",
+    "title": "Review pending code changes",
+    "status": "done",
+    "priority": "medium",
+    "created_at": "2026-10-18T12:15:00+05:30",
+    "subtasks": [],
+    "demo": true
+  },
+  {
+    "id": "demo-c4a528db-0c73-5007-a2ac-a5843f394a71",
+    "kind": "task",
+    "title": "Review QA findings",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2026-10-12T09:15:00+05:30",
+    "subtasks": [
+      {
+        "id": "0e6e719b-5fbe-5ed3-a43f-6dd3f876cb70",
+        "title": "Gather the relevant links",
+        "done": true,
+        "created_at": "2026-10-12T09:15:00+05:30"
+      },
+      {
+        "id": "d9eb65b2-bb18-5dba-8492-16ac3e3393c7",
+        "title": "Review and record next steps",
+        "done": false,
+        "created_at": "2026-10-12T09:15:00+05:30"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "demo-3edd3a5e-c18a-52e0-a1fb-05ec421f61d9",
+    "kind": "task",
+    "title": "Update local development setup",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2026-10-12T10:15:00+05:30",
+    "subtasks": [],
+    "demo": true
+  },
+  {
+    "id": "demo-3e1090a6-9cea-5f8a-a642-0a35e58f1b46",
+    "kind": "task",
+    "title": "Collect release checklist links",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2026-10-12T11:15:00+05:30",
+    "subtasks": [
+      {
+        "id": "00cad83c-c994-51ef-8c1e-de99e92742a6",
+        "title": "Gather the relevant links",
+        "done": true,
+        "created_at": "2026-10-12T11:15:00+05:30"
+      },
+      {
+        "id": "a39975ad-db0d-5da5-8a49-ef5b38ff9171",
+        "title": "Review and record next steps",
+        "done": false,
+        "created_at": "2026-10-12T11:15:00+05:30"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "demo-95276ab8-3812-5280-a3d3-3be9a3ebc4e9",
+    "kind": "task",
+    "title": "Tidy up Jira saved filters",
+    "status": "done",
+    "priority": "medium",
+    "created_at": "2026-10-12T12:15:00+05:30",
+    "subtasks": [],
+    "demo": true
+  },
+  {
+    "id": "demo-26c02a0b-bdcb-5b1b-bf29-fb375f0fb1fa",
+    "kind": "task",
+    "title": "Document the deployment process",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2026-10-01T09:15:00+05:30",
+    "subtasks": [
+      {
+        "id": "191868e3-bc24-5757-9be3-d7ffd30374ae",
+        "title": "Gather the relevant links",
+        "done": true,
+        "created_at": "2026-10-01T09:15:00+05:30"
+      },
+      {
+        "id": "c38db59b-c664-5718-8716-09d54a8b435c",
+        "title": "Review and record next steps",
+        "done": false,
+        "created_at": "2026-10-01T09:15:00+05:30"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "demo-ad8f3857-cf55-5ac8-86a2-7fd8ce1a16af",
+    "kind": "task",
+    "title": "Review API error handling",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2026-10-01T10:15:00+05:30",
+    "subtasks": [],
+    "demo": true
+  },
+  {
+    "id": "demo-4291816f-54eb-5001-90d7-5b47934111bb",
+    "kind": "task",
+    "title": "Clean up unused feature branches",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2026-10-01T11:15:00+05:30",
+    "subtasks": [
+      {
+        "id": "782a049f-7d10-55fc-8d3c-4b2effc02bd9",
+        "title": "Gather the relevant links",
+        "done": true,
+        "created_at": "2026-10-01T11:15:00+05:30"
+      },
+      {
+        "id": "89e0dc8e-8397-5b00-b513-d5045548858b",
+        "title": "Review and record next steps",
+        "done": false,
+        "created_at": "2026-10-01T11:15:00+05:30"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "demo-6c5a3a2b-e513-579a-a55d-35dd278fca86",
+    "kind": "task",
+    "title": "Update onboarding notes",
+    "status": "done",
+    "priority": "medium",
+    "created_at": "2026-10-01T12:15:00+05:30",
+    "subtasks": [],
+    "demo": true
+  },
+  {
+    "id": "demo-44f681e5-4b66-5fbf-95de-9be10a079f5c",
+    "kind": "task",
+    "title": "Review service dependencies",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2026-01-01T09:15:00+05:30",
+    "subtasks": [
+      {
+        "id": "348d9b7f-137a-5f63-ab09-f0dae8f23e04",
+        "title": "Gather the relevant links",
+        "done": true,
+        "created_at": "2026-01-01T09:15:00+05:30"
+      },
+      {
+        "id": "3db3dcec-c698-5ab6-90b0-086b848d5d9c",
+        "title": "Review and record next steps",
+        "done": false,
+        "created_at": "2026-01-01T09:15:00+05:30"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "demo-0c12cdb9-b82c-5876-9b54-220710a1b4de",
+    "kind": "task",
+    "title": "Organize architecture notes",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2026-01-01T10:15:00+05:30",
+    "subtasks": [],
+    "demo": true
+  },
+  {
+    "id": "demo-ff22d70a-9f01-50b9-99db-da09ef2beabd",
+    "kind": "task",
+    "title": "Document recurring support issues",
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2026-01-01T11:15:00+05:30",
+    "subtasks": [
+      {
+        "id": "72b754e7-0299-5eef-b385-278671820242",
+        "title": "Gather the relevant links",
+        "done": true,
+        "created_at": "2026-01-01T11:15:00+05:30"
+      },
+      {
+        "id": "f312583f-0d3d-5f58-ab4d-2521847f5874",
+        "title": "Review and record next steps",
+        "done": false,
+        "created_at": "2026-01-01T11:15:00+05:30"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "demo-65da8979-4456-5996-9790-aa75a926e0ff",
+    "kind": "task",
+    "title": "Review developer tooling",
+    "status": "done",
+    "priority": "medium",
+    "created_at": "2026-01-01T12:15:00+05:30",
+    "subtasks": [],
+    "demo": true
+  }
+]
